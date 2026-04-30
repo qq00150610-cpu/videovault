@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VideoVault</string>
+    <string name="app_description">मल्टी-प्लेटफॉर्म वीडियो डाउनलोडर</string>
+    <string name="nav_home">होम</string>
+    <string name="nav_downloads">डाउनलोड</string>
+    <string name="nav_local">लोकल</string>
+    <string name="nav_settings">सेटिंग्स</string>
+    <string name="nav_online">ऑनलाइन</string>
+    <string name="hint_paste_url">वीडियो URL पेस्ट करें (Twitter, YouTube, TikTok…)</string>
+    <string name="btn_paste">पेस्ट</string>
+    <string name="btn_parse">विश्लेषण</string>
+    <string name="btn_download">डाउनलोड</string>
+    <string name="btn_play">चलाएं</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="theme">थीम</string>
+    <string name="theme_system">सिस्टम</string>
+    <string name="theme_light">लाइट</string>
+    <string name="theme_dark">डार्क</string>
+    <string name="language">भाषा</string>
+    <string name="select_language">भाषा चुनें</string>
+    <string name="about">के बारे में</string>
+    <string name="speed">गति</string>
+    <string name="lock">लॉक</string>
+    <string name="unlock">अनलॉक</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="ok">ठीक है</string>
+    <string name="clear">साफ करें</string>
+    <string name="share_video">वीडियो शेयर करें</string>
+    <string name="clipboard_empty">क्लिपबोर्ड खाली है</string>
+    <string name="download_completed">डाउनलोड पूरा हुआ!</string>
+    <string name="version_format">संस्करण %1$s</string>
+    <string name="about_content">Cobalt API द्वारा संचालित मल्टी-प्लेटफॉर्म वीडियो डाउनलोडर।\n\nसमर्थित प्लेटफॉर्म:\n• Twitter/X\n• YouTube\n• TikTok\n• Instagram\n• Reddit\n• Facebook\n• Vimeo\n• Twitch\n• Pinterest\n• और भी बहुत कुछ!\n\nसंस्करण: %1$s</string>
+    <string name="online_player">ऑनलाइन प्लेयर</string>
+    <string name="recent_play_history">हालिया प्ले हिस्ट्री</string>
+    <string name="clear_history_title">हिस्ट्री साफ करें</string>
+    <string name="clear_history_message">सारी प्ले हिस्ट्री मिटाएं?</string>
+    <string name="quality_best">सर्वोत्तम</string>
+</resources>
