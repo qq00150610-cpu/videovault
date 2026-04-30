@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VideoVault</string>
+    <string name="app_description">Мультиплатформенный загрузчик видео</string>
+    <string name="nav_home">Главная</string>
+    <string name="nav_downloads">Загрузки</string>
+    <string name="nav_local">Локальные</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_online">Онлайн</string>
+    <string name="hint_paste_url">Вставьте URL видео (Twitter, YouTube, TikTok…)</string>
+    <string name="btn_paste">Вставить</string>
+    <string name="btn_parse">Анализ</string>
+    <string name="btn_download">Скачать</string>
+    <string name="btn_play">Воспроизвести</string>
+    <string name="settings">Настройки</string>
+    <string name="theme">Тема</string>
+    <string name="theme_system">Системная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="language">Язык</string>
+    <string name="select_language">Выберите язык</string>
+    <string name="about">О приложении</string>
+    <string name="speed">Скорость</string>
+    <string name="lock">Блокировка</string>
+    <string name="unlock">Разблокировать</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">ОК</string>
+    <string name="clear">Очистить</string>
+    <string name="share_video">Поделиться видео</string>
+    <string name="clipboard_empty">Буфер обмена пуст</string>
+    <string name="download_completed">Загрузка завершена!</string>
+    <string name="version_format">Версия %1$s</string>
+    <string name="about_content">Мультиплатформенный загрузчик видео на базе Cobalt API.\n\nПоддерживаемые платформы:\n• Twitter/X\n• YouTube\n• TikTok\n• Instagram\n• Reddit\n• Facebook\n• Vimeo\n• Twitch\n• Pinterest\n• И многие другие!\n\nВерсия: %1$s</string>
+    <string name="online_player">Онлайн-плеер</string>
+    <string name="recent_play_history">Недавняя история</string>
+    <string name="clear_history_title">Очистить историю</string>
+    <string name="clear_history_message">Удалить всю историю воспроизведения?</string>
+    <string name="quality_best">Лучшее</string>
+</resources>
