@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VideoVault</string>
+    <string name="app_description">أداة تحميل فيديو متعددة المنصات</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_downloads">التحميلات</string>
+    <string name="nav_local">الملفات المحلية</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_online">عبر الإنترنت</string>
+    <string name="hint_paste_url">الصق رابط الفيديو (Twitter، YouTube، TikTok…)</string>
+    <string name="btn_paste">لصق</string>
+    <string name="btn_parse">تحليل</string>
+    <string name="btn_download">تحميل</string>
+    <string name="btn_play">تشغيل</string>
+    <string name="settings">الإعدادات</string>
+    <string name="theme">المظهر</string>
+    <string name="theme_system">النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="language">اللغة</string>
+    <string name="select_language">اختر اللغة</string>
+    <string name="about">حول</string>
+    <string name="speed">السرعة</string>
+    <string name="lock">قفل</string>
+    <string name="unlock">فتح القفل</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">موافق</string>
+    <string name="clear">مسح</string>
+    <string name="share_video">مشاركة الفيديو</string>
+    <string name="clipboard_empty">الحافظة فارغة</string>
+    <string name="download_completed">اكتمل التحميل!</string>
+    <string name="version_format">الإصدار %1$s</string>
+    <string name="about_content">أداة تحميل فيديو متعددة المنصات عبر Cobalt API.\n\nالمنصات المدعومة:\n• Twitter/X\n• YouTube\n• TikTok\n• Instagram\n• Reddit\n• Facebook\n• Vimeo\n• Twitch\n• Pinterest\n• وغيرها!\n\nالإصدار: %1$s</string>
+    <string name="online_player">مشغل عبر الإنترنت</string>
+    <string name="recent_play_history">سجل التشغيل الأخير</string>
+    <string name="clear_history_title">مسح السجل</string>
+    <string name="clear_history_message">هل تريد مسح سجل التشغيل بالكامل؟</string>
+    <string name="quality_best">أفضل جودة</string>
+</resources>
