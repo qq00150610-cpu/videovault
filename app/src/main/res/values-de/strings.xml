@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VideoVault</string>
+    <string name="app_description">Multi-Plattform Video-Downloader</string>
+    <string name="nav_home">Startseite</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_local">Lokal</string>
+    <string name="nav_settings">Einstellungen</string>
+    <string name="nav_online">Online</string>
+    <string name="hint_paste_url">Video-URL einfügen (Twitter, YouTube, TikTok…)</string>
+    <string name="btn_paste">Einfügen</string>
+    <string name="btn_parse">Analysieren</string>
+    <string name="btn_download">Herunterladen</string>
+    <string name="btn_play">Abspielen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="theme">Design</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+    <string name="language">Sprache</string>
+    <string name="select_language">Sprache wählen</string>
+    <string name="about">Über</string>
+    <string name="speed">Geschwindigkeit</string>
+    <string name="lock">Sperren</string>
+    <string name="unlock">Entsperren</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">OK</string>
+    <string name="clear">Löschen</string>
+    <string name="share_video">Video teilen</string>
+    <string name="clipboard_empty">Zwischenablage ist leer</string>
+    <string name="download_completed">Download abgeschlossen!</string>
+    <string name="version_format">Version %1$s</string>
+    <string name="about_content">Multi-Plattform Video-Downloader mit Cobalt API.\n\nUnterstützte Plattformen:\n• Twitter/X\n• YouTube\n• TikTok\n• Instagram\n• Reddit\n• Facebook\n• Vimeo\n• Twitch\n• Pinterest\n• Und viele mehr!\n\nVersion: %1$s</string>
+    <string name="online_player">Online-Player</string>
+    <string name="recent_play_history">Letzte Wiedergabehistorie</string>
+    <string name="clear_history_title">Verlauf löschen</string>
+    <string name="clear_history_message">Gesamten Wiedergabeverlauf löschen?</string>
+    <string name="quality_best">Beste</string>
+</resources>
