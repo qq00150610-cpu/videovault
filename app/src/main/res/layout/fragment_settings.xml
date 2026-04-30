@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="?attr/colorSurface">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings" android:textAppearance="@style/TextAppearance.Material3.HeadlineMedium" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/appearance" android:textAppearance="@style/TextAppearance.Material3.TitleSmall" android:textColor="?attr/colorPrimary" />
+        <LinearLayout android:id="@+id/itemLanguage" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="?attr/selectableItemBackground" android:gravity="center_vertical" android:minHeight="56dp" android:orientation="horizontal" android:paddingHorizontal="8dp">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_language" app:tint="?attr/colorOnSurface" />
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_weight="1" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/language" android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+                <TextView android:id="@+id/tvLanguageValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="@style/TextAppearance.Material3.BodyMedium" android:textColor="?attr/colorOnSurfaceVariant" />
+            </LinearLayout>
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_chevron_right" app:tint="?attr/colorOnSurfaceVariant" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/itemTheme" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?attr/selectableItemBackground" android:gravity="center_vertical" android:minHeight="56dp" android:orientation="horizontal" android:paddingHorizontal="8dp">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_theme" app:tint="?attr/colorOnSurface" />
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_weight="1" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/theme" android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+                <TextView android:id="@+id/tvThemeValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="@style/TextAppearance.Material3.BodyMedium" android:textColor="?attr/colorOnSurfaceVariant" />
+            </LinearLayout>
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_chevron_right" app:tint="?attr/colorOnSurfaceVariant" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/downloads_section" android:textAppearance="@style/TextAppearance.Material3.TitleSmall" android:textColor="?attr/colorPrimary" />
+        <LinearLayout android:id="@+id/itemQuality" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="?attr/selectableItemBackground" android:gravity="center_vertical" android:minHeight="56dp" android:orientation="horizontal" android:paddingHorizontal="8dp">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_quality" app:tint="?attr/colorOnSurface" />
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_weight="1" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/default_quality" android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+                <TextView android:id="@+id/tvQualityValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="@style/TextAppearance.Material3.BodyMedium" android:textColor="?attr/colorOnSurfaceVariant" />
+            </LinearLayout>
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_chevron_right" app:tint="?attr/colorOnSurfaceVariant" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:minHeight="56dp" android:orientation="horizontal" android:paddingHorizontal="8dp">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_autoplay" app:tint="?attr/colorOnSurface" />
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_weight="1" android:text="@string/auto_play" android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+            <com.google.android.material.materialswitch.MaterialSwitch android:id="@+id/switchAutoPlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/storage" android:textAppearance="@style/TextAppearance.Material3.TitleSmall" android:textColor="?attr/colorPrimary" />
+        <LinearLayout android:id="@+id/itemClearCache" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="?attr/selectableItemBackground" android:gravity="center_vertical" android:minHeight="56dp" android:orientation="horizontal" android:paddingHorizontal="8dp">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_delete" app:tint="?attr/colorOnSurface" />
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_weight="1" android:text="@string/clear_cache" android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_chevron_right" app:tint="?attr/colorOnSurfaceVariant" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/about" android:textAppearance="@style/TextAppearance.Material3.TitleSmall" android:textColor="?attr/colorPrimary" />
+        <LinearLayout android:id="@+id/itemAbout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:background="?attr/selectableItemBackground" android:gravity="center_vertical" android:minHeight="56dp" android:orientation="horizontal" android:paddingHorizontal="8dp">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_info" app:tint="?attr/colorOnSurface" />
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_weight="1" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about" android:textAppearance="@style/TextAppearance.Material3.BodyLarge" />
+                <TextView android:id="@+id/tvVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="@style/TextAppearance.Material3.BodyMedium" android:textColor="?attr/colorOnSurfaceVariant" />
+            </LinearLayout>
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_chevron_right" app:tint="?attr/colorOnSurfaceVariant" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
