@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VideoVault</string>
+    <string name="app_description">Descargador de vídeos multiplataforma</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_downloads">Descargas</string>
+    <string name="nav_local">Local</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="nav_online">En línea</string>
+    <string name="hint_paste_url">Pega la URL del vídeo (Twitter, YouTube, TikTok…)</string>
+    <string name="btn_paste">Pegar</string>
+    <string name="btn_parse">Analizar</string>
+    <string name="btn_download">Descargar</string>
+    <string name="btn_play">Reproducir</string>
+    <string name="btn_play_online">Reproducir en línea</string>
+    <string name="select_quality">Seleccionar calidad</string>
+    <string name="settings">Ajustes</string>
+    <string name="theme">Tema</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="language">Idioma</string>
+    <string name="select_language">Seleccionar idioma</string>
+    <string name="about">Acerca de</string>
+    <string name="speed">Velocidad</string>
+    <string name="lock">Bloquear</string>
+    <string name="unlock">Desbloquear</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="clear">Limpiar</string>
+    <string name="share_video">Compartir vídeo</string>
+    <string name="clipboard_empty">El portapapeles está vacío</string>
+    <string name="please_enter_url">Introduce una URL</string>
+    <string name="download_completed">¡Descarga completada!</string>
+    <string name="version_format">Versión %1$s</string>
+    <string name="about_content">Descargador de vídeos multiplataforma con Cobalt API.\n\nPlataformas soportadas:\n• Twitter/X\n• YouTube\n• TikTok\n• Instagram\n• Reddit\n• Facebook\n• Vimeo\n• Twitch\n• Pinterest\n• ¡Y muchas más!\n\nVersión: %1$s</string>
+    <string name="online_player">Reproductor en línea</string>
+    <string name="recent_play_history">Historial reciente</string>
+    <string name="clear_history_title">Borrar historial</string>
+    <string name="clear_history_message">¿Borrar todo el historial de reproducción?</string>
+    <string name="error_invalid_url_general">Introduce una URL de vídeo válida</string>
+    <string name="quality_best">Mejor</string>
+</resources>
