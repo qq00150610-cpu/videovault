@@ -1,0 +1,5 @@
+-keepattributes *Annotation*
+-keep class com.videovault.data.model.** { *; }
+-keep class com.videovault.data.local.database.entity.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**
